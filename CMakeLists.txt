@@ -3,6 +3,8 @@ project (DiscordRPC)
 
 include(GNUInstallDirs)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 option(BUILD_EXAMPLES "Build example apps" ON)
 
 # format
